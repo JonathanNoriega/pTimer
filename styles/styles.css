@@ -1,0 +1,140 @@
+body{
+    font-family: 'Yusei Magic', sans-serif;
+    background: #364f6b;
+    color: #f5f5f5;
+}
+.headerxd{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    color: #3fc1c9;
+    list-style: none;
+    margin: auto;
+}
+
+h1, img, h2{
+    font-size: auto;
+    margin: auto;
+
+}
+
+img{
+    justify-content: left;
+    margin: auto;
+}
+
+#bestime{
+    justify-content: right;
+}
+
+.daddy{
+    display: flex;
+    justify-content: center;
+}
+
+
+#time{
+    font-size: 80px;
+    margin: 100px auto 80px 0;
+}
+
+ul{
+    display: flex;
+    justify-content: left;
+
+}
+ul li{
+    padding-left: 70px;
+    list-style: none;
+
+}
+
+
+
+#scramble{
+    white-space: initial;
+    justify-content: center;
+}
+
+footer{
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    background-color:#f5f5f5;
+    color: #364f6b;
+    padding: 20px;
+    height: auto;
+}
+
+#promedios{
+    margin: 0 auto 0 auto;     
+}
+
+/*           DROPDOWN MENU       */
+
+a{
+    color: #f5f5f5;
+    text-decoration: none;
+}
+.dropdown{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    background-color: #364f6b;
+    color: #f5f5f5;
+    margin: auto;
+    margin-left: 0;
+}
+li {
+    display: inline-block;
+    list-style-type: none;
+    position: relative;
+ }
+ 
+li ol {
+    display: none;
+    position: absolute;
+    width: 100px;
+    left: 0;
+    top: 100%;
+    margin: 0;
+    padding: 0;
+ }
+ 
+li:hover > ol {
+    display: block;
+ }
+ 
+
+ #btn1, #btn2, #btn3, #btn4, #btn5, #btn6 {
+    color:#f5f5f5;
+    text-align: center;
+    background:#364f6b;
+    border: none;
+    outline: none;
+ }
+
+ #btn1:hover{
+    background-color: #f5f5f5;
+    color: #364f6b;
+ }
+ #btn2:hover{
+    background-color: #f5f5f5;
+    color: #364f6b;
+}
+  #btn3:hover{
+    background-color: #f5f5f5;
+    color: #364f6b;
+}
+ #btn4:hover{
+    background-color: #f5f5f5;
+    color: #364f6b;
+}
+ #btn5:hover{
+    background-color: #f5f5f5;
+    color: #364f6b;
+}
+ #btn6:hover{
+    background-color: #f5f5f5;
+    color: #364f6b;
+}
